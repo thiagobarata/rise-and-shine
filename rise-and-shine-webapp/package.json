@@ -1,0 +1,21 @@
+{
+  "name": "rise-and-shine",
+  "version": "1.0.0",
+  "description": "This is Rise and Shine, a smart, IoT alarm clock that doesn't stop ringing until you get out of bed. It uses computer vision to detect if the user is still in bed, and if he/she isn't it keeps ringing the alarm until the person gets out of bed.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

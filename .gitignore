@@ -1,0 +1,25 @@
+# Ignore Python virtual env
+venv/
+
+# Node.js deps
+rise-and-shine-webapp/node_modules/
+
+# Mac system files
+.DS_Store
+
+# Python cache
+__pycache__/
+
+# VSCode config
+.vscode/
+
+# Training artifacts
+*.pth
+*.pt
+*.log
+checkpoints/
+dataset/
+
+# Environment secrets
+rise-and-shine-webapp/backend/.env
+
