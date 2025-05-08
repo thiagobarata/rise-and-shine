@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rise and Shine</title>
+  <link rel="stylesheet" href="index-styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Alarm Clock</h1>
+
+    <div class="alarm-section">
+      <label for="alarm-time" class="time-label">Set Alarm (24-hour format, Pacific Time):</label>
+      <input type="text" id="alarm-time" class="alarm-time" />
+
+      <label class="toggle-switch">
+        <input type="checkbox" id="alarm-toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <p class="status-text" id="status-msg">Connecting to server...</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script>
+    flatpickr("#alarm-time", {
+      enableTime: true,
+      noCalendar: true,
+      dateFormat: "H:i",
+      time_24hr: true
+    });
+  </script>
+  <script src="index.js" defer></script>
+</body>
+</html>

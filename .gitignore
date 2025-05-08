@@ -2,7 +2,8 @@
 venv/
 
 # Node.js deps
-rise-and-shine-webapp/node_modules/
+rise-and-shine-webapp/backend/node_modules/
+
 
 # Mac system files
 .DS_Store
@@ -22,4 +23,10 @@ dataset/
 
 # Environment secrets
 rise-and-shine-webapp/backend/.env
+classification_model/.env
+
+#datasets
+test_dataset/
+train_dataset/
+
 
