@@ -9,8 +9,7 @@ Even when I do, I sometimes just rot in bed for 10 minutes doing nothing.
 
 This alarm does not allow that.
 
-It will keep ringing as long as you're in bed. You can customize the sound
-and wake up time via a webapp.
+It will keep ringing as long as you're in bed. You can customize wake up time via a webapp.
 
 Hope you find it interesting!
 
