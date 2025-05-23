@@ -13,5 +13,5 @@ It will keep ringing as long as you're in bed. You can customize wake up time vi
 
 Hope you find it interesting!
 
-Video Demo: https://youtu.be/qgMkXHo3-PQ
+
 
